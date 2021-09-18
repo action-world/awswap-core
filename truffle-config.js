@@ -83,11 +83,11 @@ module.exports = {
       gas: 8000000, // Gas sent with each transaction (default: ~6700000)
       gasPrice: 1e9,
     },
-    pancake_test_2: {
-      provider: () => new HDWalletProvider(`8836d433c18659306e01d7f6c17028d62b274dc07abecb97d461177642eebee8`, `http://121.62.19.129:1280`),
+    hoswap_prod: {
+      provider: () => new HDWalletProvider(process.env.HOSWAP_PROD_PRIVATEKEY, `https://nodes.halo.land`),
       network_id: "*", // Any network (default: none)
       gas: 8000000, // Gas sent with each transaction (default: ~6700000)
-      gasPrice: 1e9,
+      gasPrice: 5e9,
     }
   },
 
