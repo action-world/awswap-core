@@ -187,7 +187,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0;\n\ninterface IPancakeFactory {\n    event PairCreated(address indexed token0, address indexed token1, address pair, uint);\n\n    function feeTo() external view returns (address);\n    function feeToSetter() external view returns (address);\n\n    function getPair(address tokenA, address tokenB) external view returns (address pair);\n    function allPairs(uint) external view returns (address pair);\n    function allPairsLength() external view returns (uint);\n\n    function createPair(address tokenA, address tokenB) external returns (address pair);\n\n    function setFeeTo(address) external;\n    function setFeeToSetter(address) external;\n}\n",
-  "sourcePath": "/Users/aka/Documents/GitHub/hoswap/hoswap-core/contracts/interfaces/IPancakeFactory.sol",
+  "sourcePath": "/Users/aka/Documents/GitHub/farswap/farswap-core/contracts/interfaces/IPancakeFactory.sol",
   "ast": {
     "absolutePath": "project:/contracts/interfaces/IPancakeFactory.sol",
     "exportedSymbols": {
@@ -1775,7 +1775,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-09-18T04:38:43.857Z",
+  "updatedAt": "2021-09-25T05:53:42.700Z",
   "devdoc": {
     "methods": {}
   },

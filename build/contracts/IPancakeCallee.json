@@ -38,7 +38,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0;\n\ninterface IPancakeCallee {\n    function pancakeCall(address sender, uint amount0, uint amount1, bytes calldata data) external;\n}\n",
-  "sourcePath": "/Users/aka/Documents/GitHub/hoswap/hoswap-core/contracts/interfaces/IPancakeCallee.sol",
+  "sourcePath": "/Users/aka/Documents/GitHub/farswap/farswap-core/contracts/interfaces/IPancakeCallee.sol",
   "ast": {
     "absolutePath": "project:/contracts/interfaces/IPancakeCallee.sol",
     "exportedSymbols": {
@@ -415,7 +415,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-09-18T04:38:43.854Z",
+  "updatedAt": "2021-09-25T05:53:42.696Z",
   "devdoc": {
     "methods": {}
   },

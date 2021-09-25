@@ -11,5 +11,5 @@ module.exports = async function (deployer, network, accounts) {
   );
 
   const INIT_CODE_HASH = tool.keccak256(['bytes'], [`${PancakePair.bytecode}`]);
-  console.log(`HoSwapPair InitCodeHash: ${INIT_CODE_HASH}`);
+  console.log(`FarSwapPair InitCodeHash: ${INIT_CODE_HASH}`);
 };

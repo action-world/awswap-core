@@ -83,8 +83,8 @@ module.exports = {
       gas: 8000000, // Gas sent with each transaction (default: ~6700000)
       gasPrice: 1e9,
     },
-    hoswap_prod: {
-      provider: () => new HDWalletProvider(process.env.HOSWAP_PROD_PRIVATEKEY, `https://nodes.halo.land`),
+    farswap_prod: {
+      provider: () => new HDWalletProvider(process.env.FARSWAP_PROD_PRIVATEKEY, `https://nodes.halo.land`),
       network_id: "*", // Any network (default: none)
       gas: 8000000, // Gas sent with each transaction (default: ~6700000)
       gasPrice: 5e9,
