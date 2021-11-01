@@ -1,6 +1,6 @@
 {
-  "name": "@farswap/farswap-core",
-  "description": "🎛 Core contracts for the farswap protocol",
+  "name": "@awswap/awswap-core",
+  "description": "🎛 Core contracts for the awswap protocol",
   "version": "0.1.0",
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
